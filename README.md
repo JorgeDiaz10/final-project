@@ -14,6 +14,7 @@ This repository will be focusing on the statistics revolving around NBA players 
 
 ## :computer: *Installation*
 
+This project is tested on Python 3.7.
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install the libraries.
 
 ```bash
