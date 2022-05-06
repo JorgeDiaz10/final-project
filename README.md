@@ -87,7 +87,10 @@ from PIL import Image
 ```
                 streamlit run main.py
 ```
-
+<br />
+<div align="center">
+  <img src="images/streamlit.png"  width=900 height=350/>
+</div>
 ---
 
 ## :hourglass_flowing_sand: *To do*
@@ -126,7 +129,7 @@ from PIL import Image
 
 ---
 
-
+<p align="centre">(<a href="#top">back to top</a>)</p>
 
 
 
