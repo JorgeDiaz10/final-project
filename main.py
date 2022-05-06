@@ -14,7 +14,6 @@ import streamlit.components.v1 as components
 from st_aggrid import AgGrid, GridUpdateMode, JsCode, DataReturnMode
 from st_aggrid.grid_options_builder import GridOptionsBuilder
 
-
 import chart_studio.plotly as py
 import plotly.graph_objects as go
 
@@ -122,6 +121,8 @@ if page == "Players Stats":
 
         _funct = st.sidebar.radio(label='Select Input Parameters', options=['Display', 'Highlight'])
         st.sidebar.markdown("""*Made by [Jorge Díaz](https://github.com/JorgeDiaz10). Code on [GitHub](https://github.com/JorgeDiaz10/final-project).*""")
+        st.sidebar.markdown("""* **Python libraries:** Requests, Pandas, Sklearn, Streamlit, Chart_studio.plotly...""")
+        st.sidebar.markdown("""* **Data source:** [Basketball-reference.com](https://www.basketball-reference.com/)""")
         gd = GridOptionsBuilder.from_dataframe(stats_combined)
         gd.configure_pagination(enabled=True)
         gd.configure_default_column(editable=True, groupable=True)
@@ -188,8 +189,6 @@ else:
     st.title('*NBA MVP Predictor*')
     st.markdown("""
         This app performs a simple machine learning model to predict the NBA MVP for the 2022 season
-        * **Python libraries:** Requests, Pandas, Sklearn, Streamlit, Chart_studio.plotly...
-        * **Data source:** [Basketball-reference.com](https://www.basketball-reference.com/).
         """)
     check = st.checkbox('Show data')
     if check:

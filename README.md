@@ -1,14 +1,14 @@
 <p align="centre"><img src="https://www.pngplay.com/wp-content/uploads/13/Logo-NBA-Free-PNG.png"></p>
 
-# **NBA MVP Predictor**
+# :basketball: :us: **NBA MVP Predictor**
 
 Ironhack Madrid - Data Analytics Part Time - May 2022 - Final Project
 
 ---
 
-##  *Introduction*
+## :wave: *Introduction*
 
-This repository will be focusing on the statistics revolving around NBA from 1995 and it aims at predicting the player who will win the 2022 NBA MVP award, by modelling the voting panel.
+This repository will be focusing on the statistics revolving around NBA players from 1995 and it aims at predicting the player who will win the 2022 NBA MVP award, by modelling the voting panel.
 
 ---
 
@@ -63,9 +63,10 @@ from PIL import Image
     ├── main.py
     └── README.md
 ```
+
 ---
 
-## *Code*
+## :memo: *Code*
 
 - Get 3 DataFrames Scrapping the web Basketaball-reference.
 - Once we have scrapped, we start cleaning each of the DataFrames. I have used Jupyter Notebook.
@@ -88,13 +89,20 @@ from PIL import Image
 
 ---
 
-## *To do*
+## :hourglass_flowing_sand: *To do*
 
+- Implement a complete Pipeline in order to run the code cleaner.
 
+- Connect to an NBA API to have the data updated.
+
+- Improve the machine learning model trying to get more features or changing the model.
+
+- To have the possibility to show in Streamlit MVP predictions from 1995 and not only the predictions from this year.
 
 ---
 
-## *License*
+## :no_entry: *License*
+
 - [Basketball-reference](https://www.basketball-reference.com/)
 
 ---
@@ -115,7 +123,7 @@ from PIL import Image
 
 - [Plotly](https://plotly.com/python/pandas-backend/)
 
-
+---
 
 
 
