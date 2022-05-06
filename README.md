@@ -127,10 +127,8 @@ from PIL import Image
 
 - [Plotly](https://plotly.com/python/pandas-backend/)
 
----
-
 <p align="centre">(<a href="#top">back to top</a>)</p>
-
+---
 
 
 
