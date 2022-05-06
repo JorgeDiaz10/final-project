@@ -89,7 +89,7 @@ from PIL import Image
 ```
 <br />
 <div align="center">
-  <img src="images/streamlit.png"  width=900 height=350/>
+  <img src="images/streamlit.png"  width=800 height=350/>
 </div>
 ---
 
