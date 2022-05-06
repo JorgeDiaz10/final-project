@@ -97,7 +97,7 @@ from PIL import Image
 
 - Improve the machine learning model trying to get more features or changing the model.
 
-- To have the possibility to show in Streamlit MVP predictions from 1995 and not only the predictions from this year.
+- To have the possibility to show in Streamlit MVP predictions from 1995 and not only the predictions of this year.
 
 ---
 
